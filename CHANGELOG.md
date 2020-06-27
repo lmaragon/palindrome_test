@@ -1,0 +1,2 @@
+- Change gemspec file and add minitest reporter
+- Reinitialize git
