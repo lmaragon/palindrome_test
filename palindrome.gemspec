@@ -6,8 +6,8 @@ require "palindrome/version"
 Gem::Specification.new do |spec|
   spec.name          = "palindrome"
   spec.version       = Palindrome::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Luis Aragon"]
+  spec.email         = ["lmaragon@gmail.com"]
 
   spec.summary       = %q{Palindrome detector}
   spec.description   = %q{Learn enough ruby palindrome}
@@ -16,11 +16,11 @@ Gem::Specification.new do |spec|
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = "https://rubygems.org/'"
 
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = "https://github.com/lmaragon/palindrome_test"
-    spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+    spec.metadata["changelog_uri"] = "https://github.com/lmaragon/palindrome_test/blob/master/CHANGELOG.md"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
